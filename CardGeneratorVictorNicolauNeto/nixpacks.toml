@@ -1,0 +1,5 @@
+[phases.build]
+cmds = ["./gradlew build --no-daemon"]
+
+[phases.start]
+cmd = "java -jar build/libs/CardGeneratorVictorNicolauNeto-0.0.1-SNAPSHOT.jar"
